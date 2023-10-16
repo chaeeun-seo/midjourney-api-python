@@ -71,8 +71,8 @@ if __name__ == "__main__":
 
     args = sys.argv[1:]
     args = parse_args(args)
-    params = args.params
-    prompt = args.prompt
+    params = args.params # sender_params.json 경로
+    prompt = args.prompt # 입력하고자 하는 prompt
 
     sender = Sender(params)
     sender.send(prompt)
