@@ -123,7 +123,7 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     args = parse_args(args)
     params = args.params
-    local_path = args.local_path #'/Users/georgeb/discord_api/images/'
+    local_path = args.local_path # /Users/1113478/Downloads/ClonedProjects/Midjourney_api/Midjourney_images  이미지 저장 경로
 
     print('=========== listening started ===========')
     receiver = Receiver(params, local_path)
